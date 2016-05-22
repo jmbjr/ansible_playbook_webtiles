@@ -3,9 +3,15 @@ This is an ansible playbook to quickly get a working webtiles server up and runn
 **work in progress**
 
 ## Prerequisites
-* ansible >= 2.0.2.0
+* ansible >= 2.0.2.0*
 * vagrant (optional)
 * virtualbox (optional)
+
+* on ubuntu, you may need to do the following to get version 2.0.2.0
+$ sudo apt-get install software-properties-common
+$ sudo apt-add-repository ppa:ansible/ansible
+$ sudo apt-get update
+$ sudo apt-get install ansible
 
 ## Getting started
 First install the required ansible roles.
